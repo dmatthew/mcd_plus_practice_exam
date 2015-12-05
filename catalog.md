@@ -16,3 +16,4 @@
   D. `catalog_product_index_price_final_idx`  
   E. `catalog_product_index_eav_price_final_idx`  
   
+##Answers
