@@ -1,6 +1,6 @@
 #Catalog
 
-1. Which table stores relationship data between a configurable and simple product?
+[1. Which table stores relationship data between a configurable and simple product?](#answers)
 
   A. `catalog_product_relation`  
   B. `catalog_product_link`  
