@@ -15,5 +15,29 @@
   C. `product_final_price_index_idx`  
   D. `catalog_product_index_price_final_idx`  
   E. `catalog_product_index_eav_price_final_idx`  
-  
+a  
+a  
+a  
+a  
+a  
+a  
+a  
+a  
+a  
+a  
+a  
+a  
+a  
+a  
+a  
+a  
+a  a
+aa
+ a  
+ a  a
+  aa
+    a  
+    a  
+    a  
+    
 ##Answers
