@@ -1,6 +1,6 @@
 #Catalog
 
-[1. Which table stores relationship data between configurable and simple products?](#answers)
+1. Which table stores relationship data between configurable and simple products?
 
   A. `catalog_product_relation`  
   B. `catalog_product_link`  
@@ -8,7 +8,7 @@
   D. `catalog_product_entity_relation`  
   E. `catalog_product_option`
   
-[2. Which index table is used to store final prices.](#answers)
+2. Which index table is used to store final prices.
 
   A. `catalog_product_index_price_idx`  
   B. `catalog_product_index_final_price`  
@@ -16,7 +16,7 @@
   D. `catalog_product_index_price_final_idx`  
   E. `catalog_product_index_eav_price_final_idx`  
   
-[3. Which of the following would return a product collection with the skus "123" and "456"? (Choose 2)](#answers)
+3. Which of the following would return a product collection with the skus "123" and "456"? (Choose 2)
 
   A.
   ```
@@ -44,7 +44,7 @@
       ->addAttributeToFilter(array('sku' => array('in' => '123')), array('sku' => array('in' => '456')))
   ```  
 
-##[Answers](#catalog)
+##Answers
 1. C  
 2. D  
 3. A and C
