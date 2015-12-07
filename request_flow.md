@@ -84,6 +84,14 @@
   C. `4`  
   D. `catalog`  
   E. `view`  
+
+6. What is the purpose of the router class `Mage_Core_Controller_Varien_Router_Default`?
+
+  A. To process requests which cannot be mapped.  
+  B. To redirect requests to the home page.  
+  C. As a base class for which other routers can implement and extend.  
+  D. As an entry point to redirect requests to other routers.   
+  E. To match the url to a module, controller, and action.    
   
 ##Answers
 1. C  
@@ -91,3 +99,4 @@
 3. B  
 4. D  
 5. E
+6. A  
