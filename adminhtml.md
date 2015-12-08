@@ -86,6 +86,147 @@
   D. Managing a column's filter.  
   E. Adding new columns to a grid.  
 
+10. Which xpath would allow a system configuration element to be rendered with a custom template?
+
+  A. 
+  ```
+  <config>
+    <sections>
+      <{section_name}>
+        <groups>
+          <{group_name}>
+            <fields>
+              <{field_name}>
+                <model>
+  ```
+  B. 
+  ```
+  <config>
+    <sections>
+      <{section_name}>
+        <groups>
+          <{group_name}>
+            <fields>
+              <{field_name}>
+                <backend_model>
+  ```
+  C. 
+  ```
+  <config>
+    <sections>
+      <{section_name}>
+        <groups>
+          <{group_name}>
+            <fields>
+              <{field_name}>
+                <frontend_model>
+  ```
+  D. 
+  ```
+  <config>
+    <sections>
+      <{section_name}>
+        <groups>
+          <{group_name}>
+            <fields>
+              <{field_name}>
+                <frontend_class>
+  ```
+  E. 
+  ```
+  <config>
+    <sections>
+      <{section_name}>
+        <groups>
+          <{group_name}>
+            <fields>
+              <{field_name}>
+                <source_model>
+  ```
+
+11. What is the syntax for specifying the options in dropdowns and multiselects in system.xml?
+
+  A. `<model>`  
+  B. `<backend_model>`  
+  C. `<frontend_model>`  
+  D. `<frontend_class>`  
+  E. `<source_model>`  
+  
+12. In which table does Magento store data for system configuration?
+
+  A. `core_config_data`  
+  B. `core_data`  
+  C. `core_cache`  
+  D. `core_variable`  
+  E. `system_configuration`  
+
+13. For what purpose is the _isAllowed() method used?
+
+  A. To check if a particular admin page is enabled.  
+  B. To get the role of a particular user.  
+  C. To act as a wrapper for `Mage_Admin_Model_Acl::isAllowed`.  
+  D. To check if a particular admin role has access to a particular admin page.  
+  E. To get the permissions of a particular role.
+
+14. Which xpath in adminhtml.xml would add a `Manage Prices` menu item within the `Catalog` dropdown menu item.
+
+  A. 
+  ```
+  <config>
+    <menu>
+      <item>
+        <catalog>
+          <children>
+            <product_prices>
+              <title>Manage Prices</title>
+  ```
+  B. 
+  ```
+  <config>
+    <menu>
+      <catalog>
+        <children>
+          <product_prices>
+            <title>Manage Prices</title>
+  ```
+  C. 
+  ```
+  <config>
+    <catalog>
+      <menu>
+        <product_prices>
+          <title>Manage Prices</title>
+  ```
+  D. 
+  ```
+  <config>
+    <menu>
+      <catalog>
+        <section>
+          <products>
+            <children>
+              <product_prices>
+                <title>Manage Prices</title>
+  ```
+  E. 
+  ```
+  <config>
+    <items>
+      <menu>
+        <catalog>
+          <children>
+            <product_prices>
+              <title>Manage Prices</title>
+  ```
+
+15. Which class parses adminhtml.xml?
+
+  A. `Mage_Core_Model_Config`  
+  B. `Mage_Adminhtml_Block_Widget`  
+  C. `Mage_Config_Model_Config`  
+  D. `Mage_Admin_Model_Config`  
+  E. `Mage_Adminhtml_Model_Config`  
+
 ##Answers
 1. B  
 2. B
@@ -95,4 +236,10 @@
 6. D  
 7. B  
 8. D, E  
-9. C, E
+9. C, E  
+10. C  
+11. E 
+12. A  
+13. D  
+14. B  
+15. D  
